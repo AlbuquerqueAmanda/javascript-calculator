@@ -1,0 +1,15 @@
+a {
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 18px;
+}
+
+a:hover {
+    color: purple;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
