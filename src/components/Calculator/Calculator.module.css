@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.calculator {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.firstRow {
+    margin-top: -360px;
+    display: flex;
+    position: absolute;
+}
+
+.secondRow {
+    margin-top: -290px;
+    display: flex;
+    position: absolute;
+}
+
+.thirdRow {
+    margin-top: -220px;
+    display: flex;
+    position: absolute;
+}
+
+.fourthRow {
+    margin-top: -150px;
+    margin-left: -92px;
+    display: flex;
+    position: absolute;
+}
+
+.lastRow {
+    display: flex;
+    position: absolute;
+    margin-left: -92px;
+    margin-top: -80px;
+}
+
+button {
+    width: 92px;
+    height: 70px;
+    background-color: #445069;
+    border: 1px solid #7D7C7C;
+}
+
+button:hover {
+    background-color: #7D7C7C;
+    cursor: pointer;
+}
+
+.ac {
+    width: 184px;
+    background-color: #BB2525;
+}
+
+.ac:hover {
+    background-color: #FF6969;
+}
+
+.equals {
+    height: 140px;
+    margin-top: -150px;
+    margin-left: 275px;
+    background-color: #26577C;
+}
+
+.equals:hover {
+    background-color: #088395;
+}
+
+.zero {
+    width: 184px;
+}
+
+.base {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.screen {
+    width: 380px;
+    height: 62px;
+    background-color: #141E46;
+    position: absolute;
+    border: 2px solid black;
+}
+
+.body {
+    width: 380px;
+    height: 420px;
+    background-color: #141E46;
+    border: 3px solid black;
+}
+
+.formulaScreen {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    font-weight: normal;
+    color: #EE9322;
+}
+
+.outputScreen {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    margin-top: 27px;    
+    color: #FFF5E0;
+    font-weight: normal;
+}
