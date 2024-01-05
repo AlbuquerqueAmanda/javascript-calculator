@@ -9,6 +9,8 @@ The main goal of this project is to create a basic calculator with standard arit
 ## Technologies
 - JavaScript
 - React: Utilized for building the user interface and managing application states.
+- HTML
+- CSS
 
 ## Roadmap 
 This project is under continuous improvement. Below are some planned enhancements for future versions:
@@ -40,6 +42,8 @@ O principal objetivo deste projeto é criar uma calculadora básica com funçõe
 ## Tecnologias 
 - JavaScript
 - React: Utilizado para a construção da interface do usuário e gerenciamento de estados.
+- HTML
+- CSS
 
 ## Roadmap 
 Este projeto está em constante evolução. Abaixo estão algumas melhorias planejadas para versões futuras:
